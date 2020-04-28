@@ -388,6 +388,12 @@ var uastrings = []struct {
 		ua:       "Mozilla/5.0 (iPad; CPU OS 10_1_1 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 YaBrowser/16.11.1.716.11 Mobile/14B100 Safari/602.1",
 		expected: "Mozilla:5.0 Platform:iPad OS:CPU OS 10_1_1 like Mac OS X Browser:YaBrowser-16.11.1.716.11 Engine:AppleWebKit-602.1.50 Bot:false Mobile:true",
 	},
+
+	{
+		title:    "YandexSearchBrowser",
+		ua:       "Mozilla/5.0 (Linux; Android 8.0.0; SM-A920F Build/R16NW; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36 YandexSearch/7.30 YandexSearchBrowser/7.30",
+		expected: "Mozilla:5.0 Platform:Linux OS:Android 8.0.0 Localization:wv Browser:Android-4.0 Engine:AppleWebKit-537.36 Bot:false Mobile:true",
+	},
 	// Other
 	{
 		title:    "Empty",
